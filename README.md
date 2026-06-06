@@ -10,7 +10,7 @@ Data Analyst | Finance & Operational Analytics | Power BI • Fabric • Python 
 </p>
 
 <p align="center">
-  <a href="mailto:olamoyegun07@gmail.com">Email</a> •
+  <a href="mailto:femibab82@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/olufemi-olamoyegun">LinkedIn</a> •
   <a href="https://olufemiolamoyegun.github.io/">Portfolio</a> •
   <a href="https://github.com/olufemiolamoyegun">GitHub</a>
@@ -96,9 +96,11 @@ ETL Pipelines • Data Cleaning • Data Validation • KPI Modeling
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Microsoft-blue)  
 ![Fabric Analytics Engineer](https://img.shields.io/badge/Fabric%20Analytics%20Engineer-Microsoft-blue)  
+![Fabric Data Engineer](https://img.shields.io/badge/Fabric%20Data%20Engineer-Microsoft-blue)  
 ![BIDA](https://img.shields.io/badge/BIDA™-CFI-orange)  
 ![Power BI DataCamp](https://img.shields.io/badge/Data%20Analyst-Power%20BI-red)  
 
+- Microsoft Certified: Fabric Data Engineer Associate
 - Microsoft Certified: Power BI Data Analyst Associate  
 - Microsoft Certified: Fabric Analytics Engineer Associate  
 - Business Intelligence & Data Analyst (BIDA™) – CFI  
@@ -120,7 +122,7 @@ ETL Pipelines • Data Cleaning • Data Validation • KPI Modeling
 
 I’m open to Data Analyst, BI, and Analytics roles.
 
-📧 Email: olamoyegun07@gmail.com  
+📧 Email: femibab82@gmail.com  
 🔗 LinkedIn: [olufemiolamoyegun](https://www.linkedin.com/in/olufemi-olamoyegun)  
 💻 Portfolio: [olufemiolamoyegun.github.io](https://olufemiolamoyegun.github.io/)  
 🐙 GitHub: [github.com/olufemiolamoyegun](https://github.com/olufemiolamoyegun)  
