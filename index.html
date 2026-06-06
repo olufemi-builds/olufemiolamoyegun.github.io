@@ -1,148 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olufemi Olamoyegun | Data Analyst Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    body { font-family: 'Segoe UI', sans-serif; margin:0; padding:0; line-height:1.6; background:#f8f9fa; color:#222; }
-    header, footer { text-align:center; padding:20px; background:#0a2463; color:white; }
-    header img { max-height:150px; width:auto; margin-bottom:15px; }
-    header h1 { margin:0; font-size:2rem; }
-    header h3 { margin:5px 0 15px 0; font-weight:400; }
-    .icon-links a { margin:0 10px; color:white; text-decoration:none; font-size:1.2rem; }
-    section { max-width:900px; margin:40px auto; padding:0 20px; }
-    h2 { border-bottom:2px solid #0a2463; display:inline-block; padding-bottom:5px; margin-bottom:20px; color:#0a2463; }
-    .skills span { display:inline-block; background:#0078d7; color:white; padding:5px 10px; margin:5px; border-radius:5px; font-size:0.9rem; }
-    .projects { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; }
-    .project { background:white; border-radius:8px; padding:15px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
-    .project img { width:100%; height:200px; object-fit:cover; border-radius:5px; margin-bottom:10px; }
-    .project a { color:#0078d7; text-decoration:none; font-weight:bold; }
-    footer .icon-links { margin-top:10px; }
-    @media(max-width:600px){ header h1{font-size:1.5rem;} header h3{font-size:1rem;} }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Olufemi Olamoyegun | Data & BI Analyst</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
+
 <body>
 
-  <!-- Header -->
-  <header>
-    <img src="Banner.png" alt="Data Analytics Banner">
+<header class="hero">
+  <div class="hero-content">
     <h1>Olufemi Olamoyegun</h1>
-    <h3>Data Analyst | Finance & Operational Analytics | Power BI • Fabric • Python • SQL</h3>
-    <p>Turning complex data into actionable business insights</p>
-    <div class="icon-links">
-      <a href="mailto:olamoyegun07@gmail.com" title="Email">&#9993;</a>
-      <a href="https://www.linkedin.com/in/olufemi-olamoyegun" title="LinkedIn">&#xf08c;</a>
-      <a href="https://olufemiolamoyegun.github.io/" title="Portfolio">&#128187;</a>
-      <a href="https://github.com/olufemiolamoyegun" title="GitHub">&#xf09b;</a>
+    <h2>Data & Business Intelligence Analyst</h2>
+
+    <p class="subtitle">
+      Microsoft Fabric • Power BI • SQL • Python
+    </p>
+
+    <p class="focus">
+      Finance • Operations • Product Analytics
+    </p>
+
+    <div class="hero-buttons">
+      <a href="mailto:olamoyegun07@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/olufemi-olamoyegun/">LinkedIn</a>
+      <a href="https://olufemiolamoyegun.github.io/">Portfolio</a>
+      <a href="https://github.com/olufemi-builds">GitHub</a>
     </div>
-  </header>
+  </div>
+</header>
 
-  <!-- About Me -->
-  <section>
-    <h2>About Me</h2>
-    <p>Data Analyst with 3+ years of analytics experience and 11 years in finance and operations. Skilled in transforming complex data into actionable insights using Power BI, SQL, Python, and Microsoft Fabric. Focused on improving decision-making, efficiency, and business performance.</p>
-    <ul>
-      <li>Data & Engineering: SQL, Python, ETL, Data Modeling</li>
-      <li>BI & Visualization: Power BI, Fabric, Dashboards, DAX</li>
-      <li>Analytics: A/B Testing, Forecasting, Statistics</li>
-      <li>Tools: Excel, Power Automate</li>
-    </ul>
-  </section>
+<section class="section">
 
-  <!-- Business Impact -->
-  <section>
-    <h2>Business Impact</h2>
-    <ul>
-      <li>Reduced reporting effort by 40% through automation</li>
-      <li>Delivered insights across finance and operations</li>
-      <li>Improved decision-making using dashboards</li>
-      <li>Supported performance and revenue optimization</li>
-    </ul>
-  </section>
+  <h2>Business Impact</h2>
 
-  <!-- Skills -->
-  <section>
-    <h2>Technical Skills</h2>
-    <div class="skills">
-      <span>Power BI</span>
-      <span>Microsoft Fabric</span>
-      <span>SQL</span>
-      <span>Python</span>
-      <span>Excel</span>
-      <span>ETL Pipelines</span>
-      <span>Data Modeling</span>
-      <span>Dashboard Design</span>
-      <span>DAX</span>
+  <div class="grid-3">
+    <div class="card">Built BI systems across finance and operations</div>
+    <div class="card">Reduced reporting time through automation</div>
+    <div class="card">Designed KPI frameworks for executive decisions</div>
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2>Flagship Projects</h2>
+
+  <div class="grid-2">
+
+    <div class="project-card">
+      <img src="Insurance-Claims-Risk-and-Loss-Analytics-Dashboard.png" />
+      <h3>Insurance Claims Risk & Loss Analytics</h3>
+      <p>Fraud detection • Loss ratio modeling • Risk segmentation</p>
+      <a href="https://github.com/olufemi-builds/Insurance-Claims-Risk-and-Loss-Analytics-Dashboard">View Project</a>
     </div>
-  </section>
 
-  <!-- Projects -->
-  <section>
-    <h2>Featured Projects</h2>
-    <div class="projects">
-
-      <div class="project">
-        <img src="pwc_call_centre.png" alt="PwC Dashboard">
-        <h4>PwC Call Centre Analytics</h4>
-        <p>Power BI dashboard analyzing CSAT, agent productivity, and service trends.</p>
-        <p><strong>Tools:</strong> Power BI, Power Query, Excel</p>
-        <p><strong>Impact:</strong> Improved visibility and reduced bottlenecks.</p>
-        <a href="https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI">View Project</a>
-      </div>
-
-      <div class="project">
-        <img src="hr_analytics_workforce.png" alt="HR Dashboard">
-        <h4>HR Analytics & Workforce Intelligence</h4>
-        <p>Enterprise HR solution measuring attrition, engagement, and compensation.</p>
-        <p><strong>Tools:</strong> SQL, Power BI</p>
-        <p><strong>Impact:</strong> Identified high-risk attrition segments.</p>
-        <a href="https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence">View Project</a>
-      </div>
-
-      <div class="project">
-        <img src="ab_testing_analysis.png" alt="A/B Testing">
-        <h4>A/B Testing & Growth Analytics</h4>
-        <p>Python-based statistical testing for product variants.</p>
-        <p><strong>Tools:</strong> Python, Pandas, NumPy, Statsmodels</p>
-        <p><strong>Impact:</strong> Data-backed rollout decisions with measurable revenue lift.</p>
-        <a href="https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing">View Project</a>
-      </div>
-
-      <div class="project">
-        <img src="spotify_heatmap.png" alt="Spotify Analytics">
-        <h4>Spotify Streaming Analytics</h4>
-        <p>Exploratory analysis uncovering engagement drivers and popularity trends.</p>
-        <p><strong>Tools:</strong> Python, Matplotlib, Seaborn</p>
-        <p><strong>Impact:</strong> Identified energy/danceability as key stream drivers.</p>
-        <a href="https://github.com/olufemiolamoyegun/-Spotify-Streaming-Analytics-Python-">View Project</a>
-      </div>
-
+    <div class="project-card">
+      <img src="CallOps-AI-Operations-Pack.png" />
+      <h3>CallOps AI Operations Pack</h3>
+      <p>Real-time call center KPI retrieval using Copilot Studio</p>
+      <a href="https://github.com/olufemi-builds/CallOps-AI-Operations-Pack">View Project</a>
     </div>
-  </section>
 
-  <!-- Experience -->
-  <section>
-    <h2>Experience</h2>
-    <ul>
-      <li>BI & Analytics Lead – Cadworks Ltd (2024–Present)</li>
-      <li>Director, Business Analytics – Cadworks Ltd (2023–2024)</li>
-      <li>Finance & Operational Analytics Specialist (2012–2023)</li>
-    </ul>
-  </section>
+  </div>
 
-  <!-- Footer -->
-  <footer>
-    <p>Let’s turn data into smarter business decisions.</p>
-    <div class="icon-links">
-      <a href="mailto:olamoyegun07@gmail.com" title="Email">&#9993;</a>
-      <a href="https://www.linkedin.com/in/olufemi-olamoyegun" title="LinkedIn">&#xf08c;</a>
-      <a href="https://olufemiolamoyegun.github.io/" title="Portfolio">&#128187;</a>
-      <a href="https://github.com/olufemiolamoyegun" title="GitHub">&#xf09b;</a>
+</section>
+
+<section class="section">
+
+  <h2>Analytics Portfolio</h2>
+
+  <div class="grid-2">
+
+    <div class="project-card">
+      <img src="FMCG-Sales-Performance-Analytics-Dashboard.png" />
+      <h3>FMCG Sales Analytics</h3>
+      <p>Retail performance • Product trends • Regional insights</p>
+      <a href="#">View Project</a>
     </div>
-    <p>© 2026 Olufemi Olamoyegun. All rights reserved.</p>
-  </footer>
+
+    <div class="project-card">
+      <img src="pwc_call_centre.png" />
+      <h3>PwC Call Centre Analytics</h3>
+      <p>CSAT • agent performance • service efficiency</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="hr_analytics_workforce.png" />
+      <h3>HR Workforce Intelligence</h3>
+      <p>Attrition • engagement • compensation analysis</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="spotify_heatmap.png" />
+      <h3>Spotify Streaming Analytics</h3>
+      <p>Engagement drivers • popularity modeling</p>
+      <a href="#">View Project</a>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2>Technical Stack</h2>
+
+  <div class="tags">
+    <span>Power BI</span>
+    <span>Microsoft Fabric</span>
+    <span>SQL</span>
+    <span>Python</span>
+    <span>DAX</span>
+    <span>ETL</span>
+    <span>Data Modeling</span>
+    <span>Excel</span>
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2>Experience</h2>
+
+  <div class="timeline">
+    <div>BI & Analytics Lead – Cadworks Ltd</div>
+    <div>Director, Business Analytics – Cadworks Ltd</div>
+    <div>Finance & Operational Analytics Specialist</div>
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2>Let’s Work Together</h2>
+
+  <p>
+    Open to Data Analyst, BI, and Analytics roles.
+  </p>
+
+  <div class="hero-buttons">
+    <a href="mailto:olamoyegun07@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/olufemi-olamoyegun/">LinkedIn</a>
+    <a href="https://github.com/olufemi-builds">GitHub</a>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Olufemi Olamoyegun</p>
+</footer>
 
 </body>
 </html>
