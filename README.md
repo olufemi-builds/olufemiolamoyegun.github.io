@@ -1,12 +1,15 @@
 <p align="center">
-  <img src="Banner.png" alt="Data Analytics Banner" width="100%" />
+  <img src="Banner.png" alt="Banner" width="100%" />
 </p>
 
 <h1 align="center">Olufemi Olamoyegun</h1>
-Data Analyst | Finance & Operational Analytics | Power BI • Fabric • Python • SQL</h3>
 
 <p align="center">
-  Turning complex data into actionable business insights.
+Business Intelligence & Analytics Engineer | Power BI • Microsoft Fabric • SQL • Python
+</p>
+
+<p align="center">
+Finance and Operations background • Transitioning into Data Engineering (Microsoft Fabric / Lakehouse)
 </p>
 
 <p align="center">
@@ -18,115 +21,50 @@ Data Analyst | Finance & Operational Analytics | Power BI • Fabric • Python 
 
 ---
 
-## 🚀 About Me
+## Profile Summary
 
-Data Analyst with 3+ years of analytics experience and 11 years in finance and operations. Skilled in transforming complex data into actionable insights using Power BI, SQL, Python, and Microsoft Fabric. Focused on improving decision-making, efficiency, and business performance.  
+Business Intelligence and Analytics professional with experience building reporting systems, data models, and automated dashboards across finance and operations.
 
-Core Skills
+Strong in SQL, Power BI, Python, and Microsoft Fabric for data transformation, KPI design, and analytics delivery.
 
-Data & Engineering SQL, Python, ETL, Data Modeling
-BI & Visualization Power BI, Fabric, Dashboards, DAX
-Analytics A/B Testing, Forecasting, Statistics
-Tools Excel, Power Automate
+Currently building hands-on experience in data engineering concepts including lakehouse architecture, ETL pipelines, and scalable data processing using Microsoft Fabric.
 
 ---
 
-## 📂 Featured Projects
+## Core Skills
 
-### 🔹 PwC Call Centre Analytics Dashboard
-**Power BI dashboard** analyzing customer satisfaction, agent productivity, and service demand trends.  
-**Tools:** Power BI, Power Query, Excel  
-**Impact:** Improved performance visibility and reduced service bottlenecks.  
-
-![PwC Dashboard](pwc_call_centre.png)  
-🔗 [View Project](https://github.com/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI)
+- Data Modeling: Star schema, KPI design, reporting structure
+- BI Development: Power BI, DAX, Power Query
+- Data Processing: SQL Server, Python (Pandas)
+- Microsoft Fabric: Lakehouse, Data pipelines, SCD Type 2
+- Automation: Power Automate, workflow design
 
 ---
 
-### 🔹 HR Analytics & Workforce Intelligence
-Enterprise HR analytics solution measuring **attrition, engagement, and compensation** using SQL & Power BI.  
-**Tools:** SQL, Power BI, Data Modeling  
-**Impact:** Identified high-risk attrition segments for targeted intervention.  
+## Featured Projects (BI & Analytics)
 
-![HR Dashboard](hr_analytics_workforce.png)  
-🔗 [View Project](https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence)
-
----
-
-### 🔹 A/B Testing & Growth Analytics
-Python-based **statistical testing** to evaluate product variant performance.  
-**Tools:** Python, Pandas, NumPy, Statsmodels  
-**Impact:** Data-backed rollout decisions with measurable revenue lift.  
-
-![A/B Testing](ab_testing_analysis.png)  
-🔗 [View Project](https://github.com/olufemiolamoyegun/Growth-Analytics-A-B-Testing)
+- Insurance Claims Risk & Loss Analytics Dashboard
+- FMCG Sales Performance Analytics Dashboard
+- HR Workforce Intelligence Dashboard
+- Finance KPI Dashboard
 
 ---
 
-### 🔹 Spotify Streaming Analytics
-Exploratory data analysis uncovering **drivers of engagement and track popularity**.  
-**Tools:** Python, Matplotlib, Seaborn  
-**Impact:** Identified energy/danceability as key stream drivers.  
+## Microsoft Fabric & Data Engineering Practice
 
-![Spotify Heatmap](spotify_heatmap.png)  
-🔗 [View Project](https://github.com/olufemiolamoyegun/-Spotify-Streaming-Analytics-Python-)
+- Fabric Lakehouse: SCD Type 2 Implementation (PySpark)
+- Data pipeline and transformation experiments
 
 ---
 
-## 🛠 Technical Stack
+## Automation & AI Workflows
 
-### Business Intelligence
-Power BI • Microsoft Fabric • DAX • Power Query  
-
-### Data Analysis
-SQL • Python • Pandas • NumPy • Statsmodels • Excel  
-
-### Data Engineering
-ETL Pipelines • Data Cleaning • Data Validation • KPI Modeling  
+- CallOps AI Operations Pack (Copilot Studio + Power Automate)
 
 ---
 
+## Certifications
 
-## Experience
-- BI & Analytics Lead – Cadworks Ltd (2024–Present)
-- Director, Business Analytics – Cadworks Ltd (2023–2024)
-- Finance & Operational Analytics Specialist (2012–2023)
-
-## 📜 Certifications
-
-![Power BI](https://img.shields.io/badge/Power%20BI-Microsoft-blue)  
-![Fabric Analytics Engineer](https://img.shields.io/badge/Fabric%20Analytics%20Engineer-Microsoft-blue)  
-![Fabric Data Engineer](https://img.shields.io/badge/Fabric%20Data%20Engineer-Microsoft-blue)  
-![BIDA](https://img.shields.io/badge/BIDA™-CFI-orange)  
-![Power BI DataCamp](https://img.shields.io/badge/Data%20Analyst-Power%20BI-red)  
-
-- Microsoft Certified: Fabric Data Engineer Associate
-- Microsoft Certified: Power BI Data Analyst Associate  
-- Microsoft Certified: Fabric Analytics Engineer Associate  
-- Business Intelligence & Data Analyst (BIDA™) – CFI  
-- Data Analyst in Power BI – DataCamp  
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/olufemiolamoyegun?style=for-the-badge" alt="Followers"/>
-  <img src="https://img.shields.io/github/languages/top/olufemiolamoyegun?style=for-the-badge" alt="Top Language"/>
-  <img src="https://img.shields.io/github/repo-size/olufemiolamoyegun/Project---PWC-Call-Centre-Solution-with-Power-BI?style=for-the-badge" alt="Repo Size"/>
-</p>
-
----
-
-## 🤝 Connect With Me
-
-I’m open to Data Analyst, BI, and Analytics roles.
-
-📧 Email: femibab82@gmail.com  
-🔗 LinkedIn: [olufemiolamoyegun](https://www.linkedin.com/in/olufemi-olamoyegun)  
-💻 Portfolio: [olufemiolamoyegun.github.io](https://olufemiolamoyegun.github.io/)  
-🐙 GitHub: [github.com/olufemiolamoyegun](https://github.com/olufemiolamoyegun)  
-✍️ Medium: [medium.com/@olufemiolamoyegun](https://medium.com/@olufemiolamoyegun)  
-▶️ YouTube: [youtube.com/@olufemibuilds](https://youtube.com/@olufemibuilds)
-
-✨ *Let’s turn data into smarter business decisions.*
+- Microsoft Fabric Data Engineer Associate (DP-700)
+- Microsoft Fabric Analytics Engineer Associate
+- Microsoft Power BI Data Analyst (PL-300)
