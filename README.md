@@ -9,7 +9,7 @@ Business Intelligence & Analytics Engineer | Power BI • Microsoft Fabric • S
 </p>
 
 <p align="center">
-Finance and Operations background • Transitioning into Data Engineering (Microsoft Fabric / Lakehouse)
+Finance and Operations background • Building Microsoft Fabric and Data Engineering skills
 </p>
 
 <p align="center">
@@ -23,25 +23,25 @@ Finance and Operations background • Transitioning into Data Engineering (Micro
 
 ## Profile Summary
 
-Business Intelligence and Analytics professional with experience building reporting systems, data models, and automated dashboards across finance and operations.
+Business Intelligence and Analytics professional with experience designing reporting systems, dashboards, and data models across finance and operations.
 
 Strong in SQL, Power BI, Python, and Microsoft Fabric for data transformation, KPI design, and analytics delivery.
 
-Currently building hands-on experience in data engineering concepts including lakehouse architecture, ETL pipelines, and scalable data processing using Microsoft Fabric.
+Building hands-on experience in data engineering concepts including lakehouse architecture, ETL pipelines, and scalable data processing using Microsoft Fabric.
 
 ---
 
 ## Core Skills
 
-- Data Modeling: Star schema, KPI design, reporting structure
+- Data Modeling: Star schema, dimensional modeling, KPI design
 - BI Development: Power BI, DAX, Power Query
 - Data Processing: SQL Server, Python (Pandas)
-- Microsoft Fabric: Lakehouse, Data pipelines, SCD Type 2
+- Microsoft Fabric: Lakehouse, pipelines, SCD Type 2, data transformation
 - Automation: Power Automate, workflow design
 
 ---
 
-## Featured Projects (BI & Analytics)
+## Featured Projects (Analytics & BI)
 
 - Insurance Claims Risk & Loss Analytics Dashboard
 - FMCG Sales Performance Analytics Dashboard
@@ -50,21 +50,41 @@ Currently building hands-on experience in data engineering concepts including la
 
 ---
 
-## Microsoft Fabric & Data Engineering Practice
+## Microsoft Fabric Projects
 
-- Fabric Lakehouse: SCD Type 2 Implementation (PySpark)
-- Data pipeline and transformation experiments
+- SCD Type 2 Implementation in Lakehouse (PySpark)
+- Data transformation and pipeline experiments in Microsoft Fabric
 
 ---
 
 ## Automation & AI Workflows
 
 - CallOps AI Operations Pack (Copilot Studio + Power Automate)
+  - Conversational KPI retrieval system for call center operations
+  - Excel-based backend with Power Automate orchestration
 
 ---
 
 ## Certifications
 
-- Microsoft Fabric Data Engineer Associate (DP-700)
-- Microsoft Fabric Analytics Engineer Associate
-- Microsoft Power BI Data Analyst (PL-300)
+- Microsoft Certified: Fabric Data Engineer Associate (DP-700)
+- Microsoft Certified: Fabric Analytics Engineer Associate
+- Microsoft Certified: Power BI Data Analyst (PL-300)
+
+---
+
+## Experience
+
+- BI & Analytics Lead – Cadworks Ltd (2024–Present)
+- Director, Business Analytics – Cadworks Ltd (2023–2024)
+- Operations & Finance Analyst (2012–2023)
+
+---
+
+## Focus Areas
+
+- Business intelligence systems
+- Data modeling and KPI design
+- Microsoft Fabric lakehouse workflows
+- ETL pipeline development practice
+- Transition into data engineering roles
