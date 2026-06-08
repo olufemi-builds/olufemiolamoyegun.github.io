@@ -175,7 +175,7 @@ https://github.com/olufemiolamoyegun/fabric-monthly-sales-animation
 ## Certifications
 
 - Microsoft Certified: Fabric Data Engineer Associate (DP-700)
-- Microsoft Certified: Fabric Analytics Engineer Associate
+- Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)
 - Microsoft Certified: Power BI Data Analyst (PL-300)
 
 ---
