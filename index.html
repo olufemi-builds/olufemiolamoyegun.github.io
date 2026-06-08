@@ -3,8 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-<title>Olufemi Olamoyegun | System Builder</title>
+<title>Olufemi Olamoyegun | BI Systems Builder</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -32,11 +31,11 @@ tailwind.config = {
   <h1 class="text-5xl font-bold">Olufemi Olamoyegun</h1>
 
   <p class="mt-4 text-lg text-gray-300">
-    BI Engineer → Data System Builder
+    BI Engineer → Data Systems Builder
   </p>
 
   <p class="mt-6 text-gray-400">
-    SQL • Power BI • Microsoft Fabric • Python • Automation Systems
+    SQL • Power BI • Microsoft Fabric • Python • Power Automate
   </p>
 
   <div class="mt-8 flex justify-center gap-4">
@@ -61,14 +60,14 @@ tailwind.config = {
 <div class="bg-[#1C2541] p-5 rounded">
 <h3 class="font-bold">Data Systems</h3>
 <p class="text-sm text-gray-400 mt-2">
-Ingestion → transformation → modeling pipelines
+Ingestion → transformation → modeling → reporting
 </p>
 </div>
 
 <div class="bg-[#1C2541] p-5 rounded">
-<h3 class="font-bold">Decision Systems</h3>
+<h3 class="font-bold">Business Systems</h3>
 <p class="text-sm text-gray-400 mt-2">
-KPIs, metrics layers, reporting architecture
+KPIs, dashboards, decision layers
 </p>
 </div>
 
@@ -83,22 +82,72 @@ Copilot Studio + Power Automate workflows
 
 </section>
 
-<!-- LIVE GITHUB PROJECTS -->
-<section class="max-w-6xl mx-auto px-6 py-12">
+<!-- PROJECTS (CURATED ONLY) -->
+<section id="projects" class="max-w-6xl mx-auto px-6 py-12">
 
-<h2 class="text-2xl font-bold mb-6">Live Systems (GitHub)</h2>
+<h2 class="text-2xl font-bold mb-6">Selected Systems</h2>
 
-<div id="repo-grid" class="grid md:grid-cols-2 gap-6"></div>
+<div class="grid md:grid-cols-2 gap-6">
+
+<!-- CallOps -->
+<div class="bg-[#1C2541] p-6 rounded">
+<h3 class="font-bold">CallOps AI Operations Pack</h3>
+<p class="text-sm text-gray-400 mt-2">
+Copilot Studio + Power Automate KPI assistant for call center operations.
+</p>
+<a class="text-[#4EA8DE] mt-3 inline-block"
+href="https://github.com/olufemi-builds/CallOps-AI-Operations-Pack">
+View System
+</a>
+</div>
+
+<!-- Insurance -->
+<div class="bg-[#1C2541] p-6 rounded">
+<h3 class="font-bold">Insurance Claims Analytics</h3>
+<p class="text-sm text-gray-400 mt-2">
+Risk, fraud patterns, and loss exposure analytics.
+</p>
+<a class="text-[#4EA8DE] mt-3 inline-block"
+href="https://github.com/olufemi-builds/Insurance-Claims-Risk-and-Loss-Analytics-Dashboard">
+View System
+</a>
+</div>
+
+<!-- FMCG -->
+<div class="bg-[#1C2541] p-6 rounded">
+<h3 class="font-bold">FMCG Sales Analytics</h3>
+<p class="text-sm text-gray-400 mt-2">
+Revenue trends, product performance, regional insights.
+</p>
+<a class="text-[#4EA8DE] mt-3 inline-block"
+href="https://github.com/olufemi-builds/FMCG-Sales-Performance-Analytics-Dashboard">
+View System
+</a>
+</div>
+
+<!-- HR -->
+<div class="bg-[#1C2541] p-6 rounded">
+<h3 class="font-bold">HR Workforce Analytics</h3>
+<p class="text-sm text-gray-400 mt-2">
+Attrition, engagement, and workforce intelligence.
+</p>
+<a class="text-[#4EA8DE] mt-3 inline-block"
+href="https://github.com/olufemi-builds/-HR-Analytics-Workforce-Intelligence">
+View System
+</a>
+</div>
+
+</div>
 
 </section>
 
 <!-- STATS -->
-<section class="max-w-5xl mx-auto px-6 py-12 text-center">
+<section class="text-center py-16">
 
 <h2 class="text-2xl font-bold mb-6">Engineering Signal</h2>
 
 <img class="mx-auto"
-src="https://github-readme-stats.vercel.app/api?username=olufemiolamoyegun&show_icons=true&theme=tokyonight"/>
+src="https://github-readme-stats.vercel.app/api?username=olufemi-builds&show_icons=true&theme=tokyonight"/>
 
 </section>
 
@@ -120,45 +169,6 @@ Contact
 <footer class="text-center py-8 text-gray-500 text-sm">
 © 2026 Olufemi Olamoyegun
 </footer>
-
-<!-- GITHUB AUTO LOAD SCRIPT -->
-<script>
-const username = "olufemiolamoyegun";
-
-fetch(`https://api.github.com/users/${username}/repos`)
-  .then(res => res.json())
-  .then(repos => {
-
-    const container = document.getElementById("repo-grid");
-
-    repos
-      .sort((a, b) => b.stargazers_count - a.stargazers_count)
-      .slice(0, 6)
-      .forEach(repo => {
-
-        const card = document.createElement("div");
-        card.className = "bg-[#1C2541] p-6 rounded";
-
-        card.innerHTML = `
-          <h3 class="font-bold">${repo.name}</h3>
-          <p class="text-sm text-gray-400 mt-2">
-            ${repo.description ? repo.description : "No description provided"}
-          </p>
-
-          <div class="mt-3 text-xs text-gray-500">
-            ⭐ ${repo.stargazers_count} | 🍴 ${repo.forks_count}
-          </div>
-
-          <a href="${repo.html_url}"
-             class="text-[#4EA8DE] text-sm mt-3 inline-block">
-             View System
-          </a>
-        `;
-
-        container.appendChild(card);
-      });
-  });
-</script>
 
 </body>
 </html>
