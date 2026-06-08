@@ -1,174 +1,250 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Olufemi Olamoyegun | BI Systems Builder</title>
-
-<script src="https://cdn.tailwindcss.com"></script>
-
-<script>
-tailwind.config = {
-  theme: {
-    extend: {
-      colors: {
-        brand: {
-          bg: '#0B132B',
-          card: '#1C2541',
-          accent: '#4EA8DE'
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Olufemi Olamoyegun | BI Systems Builder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#0B132B',
+                            card: '#1C2541',
+                            accent: '#4EA8DE',
+                            border: '#3A506B'
+                        }
+                    }
+                }
+            }
         }
-      }
-    }
-  }
-}
-</script>
+    </script>
 </head>
+<body class="bg-[#0B132B] text-gray-100 font-sans antialiased selection:bg-[#4EA8DE]/30">
 
-<body class="bg-[#0B132B] text-white">
+    <nav class="sticky top-0 z-50 bg-[#0B132B]/80 backdrop-blur-md border-b border-gray-800/60">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="font-mono font-bold text-lg tracking-tight">
+                OLUFEMI<span class="text-[#4EA8DE]">_BUILDS</span>
+            </div>
+            <div class="flex items-center space-x-6 text-sm font-medium text-gray-400">
+                <a href="#systems" class="hover:text-white transition-colors">Systems</a>
+                <a href="#projects" class="hover:text-white transition-colors">Projects</a>
+                <a href="#credentials" class="hover:text-white transition-colors">Credentials</a>
+                <a href="#contact" class="px-3 py-1.5 bg-gray-800 text-white rounded-md border border-gray-700 hover:bg-gray-700 transition-all">Hire Me</a>
+            </div>
+        </div>
+    </nav>
 
-<!-- HERO -->
-<section class="text-center py-24 px-6 max-w-4xl mx-auto">
-  <h1 class="text-5xl font-bold">Olufemi Olamoyegun</h1>
+    <section class="text-center py-24 px-6 max-w-4xl mx-auto flex flex-col items-center">
+        <span class="text-xs font-mono tracking-widest text-[#4EA8DE] bg-[#4EA8DE]/10 px-3 py-1 rounded-full uppercase mb-4">Enterprise Data Architecture</span>
+        <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white">
+            Olufemi Olamoyegun
+        </h1>
+        <p class="mt-4 text-xl sm:text-2xl font-medium text-gray-300">
+            BI Engineer <span class="text-[#4EA8DE] mx-2">→</span> Data Systems Builder
+        </p>
+        <p class="mt-6 text-sm sm:text-base font-mono text-gray-400 bg-gray-900/40 px-4 py-2 rounded-lg border border-gray-800 max-w-xl">
+            SQL • Power BI • Microsoft Fabric • Python • Power Automate
+        </p>
 
-  <p class="mt-4 text-lg text-gray-300">
-    BI Engineer → Data Systems Builder
-  </p>
+        <div class="mt-10 flex flex-wrap justify-center gap-4">
+            <a href="#projects" class="bg-[#4EA8DE] text-[#0B132B] px-6 py-3 font-semibold rounded-lg shadow-lg shadow-[#4EA8DE]/10 hover:bg-[#4EA8DE]/90 hover:-translate-y-0.5 transition-all duration-200">
+                <i class="fas fa-layer-group mr-2"></i>Explore Systems
+            </a>
+            <a href="https://github.com/olufemiolamoyegun" target="_blank" class="border border-gray-700 px-6 py-3 font-semibold rounded-lg hover:bg-gray-800 hover:text-white hover:-translate-y-0.5 transition-all duration-200 flex items-center gap-2">
+                <i class="fab fa-github text-lg"></i> GitHub Profile
+            </a>
+        </div>
+    </section>
 
-  <p class="mt-6 text-gray-400">
-    SQL • Power BI • Microsoft Fabric • Python • Power Automate
-  </p>
+    <section id="systems" class="max-w-5xl mx-auto px-6 py-16 border-t border-gray-900">
+        <div class="flex flex-col mb-10">
+            <div class="text-xs font-mono text-[#4EA8DE] uppercase tracking-wider mb-1">Architectural Framework</div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-white">System Thinking</h2>
+        </div>
 
-  <div class="mt-8 flex justify-center gap-4">
-    <a href="#projects" class="bg-[#4EA8DE] text-black px-6 py-2 rounded">
-      Explore Systems
-    </a>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-[#1C2541]/50 border border-gray-800 p-6 rounded-xl relative group hover:border-gray-700 transition-all">
+                <div class="text-gray-400 group-hover:text-[#4EA8DE] text-xl mb-4 transition-colors"><i class="fas fa-server"></i></div>
+                <h3 class="font-bold text-lg text-white">Data Systems</h3>
+                <p class="text-sm text-gray-400 mt-2 leading-relaxed">
+                    Ingestion <span class="text-[#4EA8DE]">→</span> transformation <span class="text-[#4EA8DE]">→</span> modeling <span class="text-[#4EA8DE]">→</span> reporting. Structured for modern analytical workloads.
+                </p>
+            </div>
+            <div class="bg-[#1C2541]/50 border border-gray-800 p-6 rounded-xl relative group hover:border-gray-700 transition-all">
+                <div class="text-gray-400 group-hover:text-[#4EA8DE] text-xl mb-4 transition-colors"><i class="fas fa-chart-pie"></i></div>
+                <h3 class="font-bold text-lg text-white">Business Systems</h3>
+                <p class="text-sm text-gray-400 mt-2 leading-relaxed">
+                    Granular KPI matrix frameworks, automated management dashboards, and robust enterprise decision layers.
+                </p>
+            </div>
+            <div class="bg-[#1C2541]/50 border border-gray-800 p-6 rounded-xl relative group hover:border-gray-700 transition-all">
+                <div class="text-gray-400 group-hover:text-[#4EA8DE] text-xl mb-4 transition-colors"><i class="fas fa-robot"></i></div>
+                <h3 class="font-bold text-lg text-white">Automation Systems</h3>
+                <p class="text-sm text-gray-400 mt-2 leading-relaxed">
+                    Synthesis of Copilot Studio agent capabilities with complex background Power Automate workflows.
+                </p>
+            </div>
+        </div>
+    </section>
 
-    <a href="https://github.com/olufemi-builds"
-       class="border border-gray-600 px-6 py-2 rounded">
-      GitHub
-    </a>
-  </div>
-</section>
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-16 border-t border-gray-900">
+        <div class="mb-10">
+            <div class="text-xs font-mono text-[#4EA8DE] uppercase tracking-wider mb-1">Curated Repositories</div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-white">Selected Systems</h2>
+        </div>
 
-<!-- SYSTEM THINKING -->
-<section class="max-w-5xl mx-auto px-6 py-12">
+        <div class="grid md:grid-cols-2 gap-6">
 
-<h2 class="text-2xl font-bold mb-6">System Thinking</h2>
+            <div class="bg-[#1C2541]/40 border border-gray-800 p-6 rounded-xl flex flex-col justify-between hover:border-gray-700 hover:bg-[#1C2541]/60 transition-all group">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-[10px] font-mono uppercase tracking-wider text-[#4EA8DE] bg-[#4EA8DE]/10 px-2.5 py-1 rounded">AI Operations</span>
+                        <span class="text-xs text-gray-500 font-mono">Repo: olufemi-builds</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-[#4EA8DE] transition-colors">CallOps AI Operations Pack</h3>
+                    <p class="text-sm text-gray-400 mt-2 leading-relaxed">
+                        Copilot Studio + Power Automate operational assistant parsing metrics directly for live call center management optimization.
+                    </p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-gray-800/60 flex items-center justify-between">
+                    <span class="text-xs text-gray-500">Automation Engine</span>
+                    <a target="_blank" class="text-[#4EA8DE] text-sm font-semibold inline-flex items-center gap-1.5 hover:underline"
+                       href="https://github.com/olufemi-builds/CallOps-AI-Operations-Pack">
+                        View System <i class="fas fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+            </div>
 
-<div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-[#1C2541]/40 border border-gray-800 p-6 rounded-xl flex flex-col justify-between hover:border-gray-700 hover:bg-[#1C2541]/60 transition-all group">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-[10px] font-mono uppercase tracking-wider text-[#4EA8DE] bg-[#4EA8DE]/10 px-2.5 py-1 rounded">Risk Analytics</span>
+                        <span class="text-xs text-gray-500 font-mono">Repo: olufemiolamoyegun</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-[#4EA8DE] transition-colors">Insurance Claims Analytics</h3>
+                    <p class="text-sm text-gray-400 mt-2 leading-relaxed">
+                        Advanced data modeling tracking claim risks, fraud vector segmentations, and portfolio loss exposure metrics.
+                    </p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-gray-800/60 flex items-center justify-between">
+                    <span class="text-xs text-gray-500">Power BI / SQL</span>
+                    <a target="_blank" class="text-[#4EA8DE] text-sm font-semibold inline-flex items-center gap-1.5 hover:underline"
+                       href="https://github.com/olufemiolamoyegun/Insurance-Claims-Risk-and-Loss-Analytics-Dashboard">
+                        View System <i class="fas fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+            </div>
 
-<div class="bg-[#1C2541] p-5 rounded">
-<h3 class="font-bold">Data Systems</h3>
-<p class="text-sm text-gray-400 mt-2">
-Ingestion → transformation → modeling → reporting
-</p>
-</div>
+            <div class="bg-[#1C2541]/40 border border-gray-800 p-6 rounded-xl flex flex-col justify-between hover:border-gray-700 hover:bg-[#1C2541]/60 transition-all group">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-[10px] font-mono uppercase tracking-wider text-[#4EA8DE] bg-[#4EA8DE]/10 px-2.5 py-1 rounded">Commercial Core</span>
+                        <span class="text-xs text-gray-500 font-mono">Repo: olufemiolamoyegun</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-[#4EA8DE] transition-colors">FMCG Sales Analytics</h3>
+                    <p class="text-sm text-gray-400 mt-2 leading-relaxed">
+                        Deep relational modeling on regional tracking parameters, structural revenue trends, and product performance analysis.
+                    </p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-gray-800/60 flex items-center justify-between">
+                    <span class="text-xs text-gray-500">Power BI Server</span>
+                    <a target="_blank" class="text-[#4EA8DE] text-sm font-semibold inline-flex items-center gap-1.5 hover:underline"
+                       href="https://github.com/olufemiolamoyegun/FMCG-Sales-Performance-Analytics-Dashboard">
+                        View System <i class="fas fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+            </div>
 
-<div class="bg-[#1C2541] p-5 rounded">
-<h3 class="font-bold">Business Systems</h3>
-<p class="text-sm text-gray-400 mt-2">
-KPIs, dashboards, decision layers
-</p>
-</div>
+            <div class="bg-[#1C2541]/40 border border-gray-800 p-6 rounded-xl flex flex-col justify-between hover:border-gray-700 hover:bg-[#1C2541]/60 transition-all group">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-[10px] font-mono uppercase tracking-wider text-[#4EA8DE] bg-[#4EA8DE]/10 px-2.5 py-1 rounded">Workforce Intelligence</span>
+                        <span class="text-xs text-gray-500 font-mono">Repo: olufemiolamoyegun</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-[#4EA8DE] transition-colors">HR Workforce Analytics</h3>
+                    <p class="text-sm text-gray-400 mt-2 leading-relaxed">
+                        Automated attrition tracking models mapping structural organizational retention factors and internal engagement metrics.
+                    </p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-gray-800/60 flex items-center justify-between">
+                    <span class="text-xs text-gray-500">Data Modeling</span>
+                    <a target="_blank" class="text-[#4EA8DE] text-sm font-semibold inline-flex items-center gap-1.5 hover:underline"
+                       href="https://github.com/olufemiolamoyegun/-HR-Analytics-Workforce-Intelligence">
+                        View System <i class="fas fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+            </div>
 
-<div class="bg-[#1C2541] p-5 rounded">
-<h3 class="font-bold">Automation Systems</h3>
-<p class="text-sm text-gray-400 mt-2">
-Copilot Studio + Power Automate workflows
-</p>
-</div>
+        </div>
+    </section>
 
-</div>
+    <section id="credentials" class="max-w-4xl mx-auto px-6 py-16 border-t border-gray-900">
+        <div class="text-center mb-10">
+            <div class="text-xs font-mono text-[#4EA8DE] uppercase tracking-wider mb-1">Professional Validations</div>
+            <h2 class="text-2xl font-bold text-white">Certifications & Capabilities</h2>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-4">
+            <div class="bg-[#1C2541]/30 border border-gray-800/80 p-4 rounded-lg flex items-center gap-4">
+                <div class="text-[#4EA8DE] text-xl"><i class="fas fa-ribbon"></i></div>
+                <div>
+                    <h4 class="font-bold text-sm text-white">Fabric Analytics Engineer Associate</h4>
+                    <p class="text-xs text-gray-500 font-mono">Microsoft Certified • DP-600</p>
+                </div>
+            </div>
+            <div class="bg-[#1C2541]/30 border border-gray-800/80 p-4 rounded-lg flex items-center gap-4">
+                <div class="text-[#4EA8DE] text-xl"><i class="fas fa-ribbon"></i></div>
+                <div>
+                    <h4 class="font-bold text-sm text-white">Power BI Data Analyst Associate</h4>
+                    <p class="text-xs text-gray-500 font-mono">Microsoft Certified • PL-300</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</section>
+    <section class="text-center py-16 bg-gray-950/40 border-t border-gray-900">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-4 text-white">Engineering Signal</h2>
+            <p class="text-sm text-gray-400 mb-8 max-w-md mx-auto">Consistently committing production data models, structured ETL schemas, and open-source automation assets.</p>
+            
+            <div class="inline-flex flex-wrap items-center justify-center gap-6 bg-[#1C2541]/30 border border-gray-800 p-6 rounded-2xl">
+                <div class="text-center px-4">
+                    <span class="block text-3xl font-extrabold text-white">12+</span>
+                    <span class="text-xs text-gray-400 font-mono uppercase tracking-wider">Years FinOps Base</span>
+                </div>
+                <div class="w-px h-10 bg-gray-800 hidden sm:block"></div>
+                <div class="text-center px-4">
+                    <span class="block text-3xl font-extrabold text-[#4EA8DE]">100%</span>
+                    <span class="text-xs text-gray-400 font-mono uppercase tracking-wider">Cloud Native (Fabric)</span>
+                </div>
+                <div class="w-px h-10 bg-gray-800 hidden sm:block"></div>
+                <div class="text-center px-4">
+                    <span class="block text-3xl font-extrabold text-white">4+</span>
+                    <span class="text-xs text-gray-400 font-mono uppercase tracking-wider">Enterprise Models</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- PROJECTS (CURATED ONLY) -->
-<section id="projects" class="max-w-6xl mx-auto px-6 py-12">
+    <section id="contact" class="text-center py-24 px-6 max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold text-white">Work With Me</h2>
+        <p class="text-gray-400 mt-3 max-w-md mx-auto text-sm sm:text-base">
+            Open to local and remote international BI Systems roles, technical pipeline engineering, and analytics operations.
+        </p>
+        <a href="mailto:femibab82@gmail.com"
+           class="mt-8 inline-flex items-center gap-2 bg-[#4EA8DE] text-[#0B132B] font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-[#4EA8DE]/90 hover:scale-[1.02] active:scale-[0.98] transition-all">
+            <i class="fas fa-envelope"></i> Initiate Connection
+        </a>
+    </section>
 
-<h2 class="text-2xl font-bold mb-6">Selected Systems</h2>
-
-<div class="grid md:grid-cols-2 gap-6">
-
-<!-- CallOps -->
-<div class="bg-[#1C2541] p-6 rounded">
-<h3 class="font-bold">CallOps AI Operations Pack</h3>
-<p class="text-sm text-gray-400 mt-2">
-Copilot Studio + Power Automate KPI assistant for call center operations.
-</p>
-<a class="text-[#4EA8DE] mt-3 inline-block"
-href="https://github.com/olufemi-builds/CallOps-AI-Operations-Pack">
-View System
-</a>
-</div>
-
-<!-- Insurance -->
-<div class="bg-[#1C2541] p-6 rounded">
-<h3 class="font-bold">Insurance Claims Analytics</h3>
-<p class="text-sm text-gray-400 mt-2">
-Risk, fraud patterns, and loss exposure analytics.
-</p>
-<a class="text-[#4EA8DE] mt-3 inline-block"
-href="https://github.com/olufemi-builds/Insurance-Claims-Risk-and-Loss-Analytics-Dashboard">
-View System
-</a>
-</div>
-
-<!-- FMCG -->
-<div class="bg-[#1C2541] p-6 rounded">
-<h3 class="font-bold">FMCG Sales Analytics</h3>
-<p class="text-sm text-gray-400 mt-2">
-Revenue trends, product performance, regional insights.
-</p>
-<a class="text-[#4EA8DE] mt-3 inline-block"
-href="https://github.com/olufemi-builds/FMCG-Sales-Performance-Analytics-Dashboard">
-View System
-</a>
-</div>
-
-<!-- HR -->
-<div class="bg-[#1C2541] p-6 rounded">
-<h3 class="font-bold">HR Workforce Analytics</h3>
-<p class="text-sm text-gray-400 mt-2">
-Attrition, engagement, and workforce intelligence.
-</p>
-<a class="text-[#4EA8DE] mt-3 inline-block"
-href="https://github.com/olufemi-builds/-HR-Analytics-Workforce-Intelligence">
-View System
-</a>
-</div>
-
-</div>
-
-</section>
-
-<!-- STATS -->
-<section class="text-center py-16">
-
-<h2 class="text-2xl font-bold mb-6">Engineering Signal</h2>
-
-<img class="mx-auto"
-src="https://github-readme-stats.vercel.app/api?username=olufemi-builds&show_icons=true&theme=tokyonight"/>
-
-</section>
-
-<!-- CONTACT -->
-<section class="text-center py-20 px-6">
-
-<h2 class="text-2xl font-bold">Work With Me</h2>
-
-<p class="text-gray-400 mt-3">Open to BI and analytics roles</p>
-
-<a href="mailto:femibab82@gmail.com"
-   class="mt-6 inline-block bg-[#4EA8DE] text-black px-6 py-3 rounded">
-Contact
-</a>
-
-</section>
-
-<!-- FOOTER -->
-<footer class="text-center py-8 text-gray-500 text-sm">
-© 2026 Olufemi Olamoyegun
-</footer>
+    <footer class="text-center py-12 border-t border-gray-900 text-gray-500 text-xs font-mono">
+        <div>© 2026 Olufemi Olamoyegun</div>
+        <div class="text-gray-600 mt-1">Optimized for processing metrics & analytical performance.</div>
+    </footer>
 
 </body>
 </html>
