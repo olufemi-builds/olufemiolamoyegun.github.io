@@ -1,156 +1,408 @@
+Replace your entire current `index.html` with this complete version.
+
+```html
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Olufemi Olamoyegun | Data & Business Intelligence</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            bg: '#0B132B',
-                            card: '#1C2541',
-                            accent: '#4EA8DE',
-                            border: '#3A506B'
-                        }
-                    }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Olufemi Olamoyegun | Business Intelligence Analyst</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                brand: {
+                    bg: '#0B132B',
+                    card: '#1C2541',
+                    accent: '#4EA8DE'
                 }
             }
         }
-    </script>
+    }
+}
+</script>
 </head>
 
-<body class="bg-[#0B132B] text-gray-100 font-sans antialiased">
+<body class="bg-[#0B132B] text-gray-100 antialiased">
 
-<nav class="sticky top-0 z-50 bg-[#0B132B]/80 backdrop-blur-md border-b border-gray-800/60">
+<!-- NAVBAR -->
+<nav class="sticky top-0 z-50 bg-[#0B132B]/80 backdrop-blur-md border-b border-gray-800">
     <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <div class="font-mono font-bold text-lg">
+
+        <div class="font-bold text-lg tracking-wide">
             OLUFEMI<span class="text-[#4EA8DE]">_DATA</span>
         </div>
-        <div class="flex items-center space-x-6 text-sm text-gray-400">
-            <a href="#summary" class="hover:text-white">Summary</a>
-            <a href="#experience" class="hover:text-white">Experience</a>
-            <a href="#projects" class="hover:text-white">Projects</a>
-            <a href="#certifications" class="hover:text-white">Certifications</a>
+
+        <div class="hidden md:flex items-center gap-8 text-sm text-gray-400">
+            <a href="#summary" class="hover:text-white transition">Summary</a>
+            <a href="#experience" class="hover:text-white transition">Focus</a>
+            <a href="#projects" class="hover:text-white transition">Projects</a>
+            <a href="#certifications" class="hover:text-white transition">Certifications</a>
         </div>
+
     </div>
 </nav>
 
-<section id="summary" class="text-center py-24 px-6 max-w-4xl mx-auto">
-    <span class="text-xs font-mono text-[#4EA8DE] uppercase tracking-widest bg-[#4EA8DE]/10 px-3 py-1 rounded">
-        Data • BI • Governance
+<!-- HERO -->
+<section id="summary" class="text-center py-24 px-6 max-w-5xl mx-auto">
+
+    <span class="text-xs uppercase tracking-[0.2em] text-[#4EA8DE] bg-[#4EA8DE]/10 px-4 py-2 rounded-full">
+        Business Intelligence • Data Analytics • Reporting
     </span>
 
-    <h1 class="text-4xl sm:text-5xl font-bold mt-6">
+    <h1 class="text-5xl sm:text-6xl font-bold mt-8 text-white">
         Olufemi Olamoyegun
     </h1>
 
-    <p class="mt-4 text-xl text-gray-300">
-        Business Intelligence Analyst | Data Governance & Reporting
+    <p class="text-xl sm:text-2xl text-gray-300 mt-5">
+        Business Intelligence Analyst | Power BI • SQL • Microsoft Fabric
     </p>
 
-    <p class="mt-6 text-sm text-gray-400 max-w-2xl mx-auto leading-relaxed">
-        Business Intelligence and data analytics professional with 3+ years in BI engineering and 11+ years in finance and operational analysis. 
-        Focused on reporting accuracy, data governance, KPI frameworks, and executive decision support using Power BI, SQL, and Microsoft Fabric.
+    <p class="text-gray-400 text-lg mt-8 leading-relaxed max-w-3xl mx-auto">
+        Business Intelligence and analytics professional with 3+ years in BI engineering and 11+ years in finance and operational analysis. Focused on KPI reporting, executive dashboards, reporting accuracy, and business decision support using Power BI, SQL, and Microsoft Fabric.
     </p>
 
-    <div class="mt-10 flex justify-center gap-4 flex-wrap">
-        <a href="#projects" class="bg-[#4EA8DE] text-[#0B132B] px-6 py-3 rounded font-semibold">
+    <!-- STATS -->
+    <div class="mt-12 flex justify-center gap-10 flex-wrap">
+
+        <div>
+            <h3 class="text-3xl font-bold text-white">
+                14+
+            </h3>
+            <p class="text-sm text-gray-400">
+                Years Finance + Analytics
+            </p>
+        </div>
+
+        <div>
+            <h3 class="text-3xl font-bold text-[#4EA8DE]">
+                4
+            </h3>
+            <p class="text-sm text-gray-400">
+                Microsoft Certifications
+            </p>
+        </div>
+
+        <div>
+            <h3 class="text-3xl font-bold text-white">
+                10+
+            </h3>
+            <p class="text-sm text-gray-400">
+                Analytics Projects
+            </p>
+        </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="mt-12 flex justify-center gap-4 flex-wrap">
+
+        <a href="#projects"
+        class="bg-[#4EA8DE] text-[#0B132B] px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition">
             View Projects
         </a>
-        <a href="https://github.com/olufemi-builds" class="border border-gray-700 px-6 py-3 rounded">
+
+        <a href="https://github.com/olufemi-builds"
+        target="_blank"
+        class="border border-gray-700 px-8 py-3 rounded-lg hover:bg-gray-800 transition">
+            <i class="fab fa-github mr-2"></i>
             GitHub
         </a>
+
     </div>
+
 </section>
 
-<section id="experience" class="max-w-5xl mx-auto px-6 py-16 border-t border-gray-900">
+<!-- CORE FOCUS -->
+<section id="experience" class="max-w-6xl mx-auto px-6 py-20 border-t border-gray-900">
 
-    <h2 class="text-2xl font-bold mb-8">Core Focus Areas</h2>
+    <div class="mb-12">
+        <span class="text-sm uppercase tracking-wide text-[#4EA8DE]">
+            Core Focus Areas
+        </span>
+
+        <h2 class="text-3xl font-bold mt-2">
+            Business Intelligence Expertise
+        </h2>
+    </div>
 
     <div class="grid md:grid-cols-3 gap-6">
 
-        <div class="bg-[#1C2541]/40 p-6 rounded border border-gray-800">
-            <h3 class="font-bold">Data Governance</h3>
-            <p class="text-sm text-gray-400 mt-2">
-                Row-level security, validation frameworks, and controlled access reporting for enterprise datasets.
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-2xl p-7">
+            <i class="fas fa-shield-alt text-[#4EA8DE] text-xl mb-5"></i>
+
+            <h3 class="font-semibold text-xl">
+                Data Governance
+            </h3>
+
+            <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+                Reporting controls, validation frameworks, row-level security, and enterprise reporting accuracy.
             </p>
         </div>
 
-        <div class="bg-[#1C2541]/40 p-6 rounded border border-gray-800">
-            <h3 class="font-bold">Business Intelligence</h3>
-            <p class="text-sm text-gray-400 mt-2">
-                KPI dashboards, executive reporting, and financial performance tracking using Power BI and SQL.
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-2xl p-7">
+            <i class="fas fa-chart-line text-[#4EA8DE] text-xl mb-5"></i>
+
+            <h3 class="font-semibold text-xl">
+                Business Intelligence
+            </h3>
+
+            <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+                KPI dashboards, executive reporting, performance tracking, and Power BI analytics.
             </p>
         </div>
 
-        <div class="bg-[#1C2541]/40 p-6 rounded border border-gray-800">
-            <h3 class="font-bold">Data Engineering</h3>
-            <p class="text-sm text-gray-400 mt-2">
-                ETL pipelines, data modelling, and Microsoft Fabric solutions for structured reporting systems.
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-2xl p-7">
+            <i class="fas fa-database text-[#4EA8DE] text-xl mb-5"></i>
+
+            <h3 class="font-semibold text-xl">
+                Data Engineering
+            </h3>
+
+            <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+                SQL pipelines, Microsoft Fabric workflows, ETL systems, and structured reporting models.
             </p>
         </div>
 
     </div>
+
 </section>
 
-<section id="projects" class="max-w-6xl mx-auto px-6 py-16 border-t border-gray-900">
+<!-- PROJECTS -->
+<section id="projects" class="max-w-6xl mx-auto px-6 py-20 border-t border-gray-900">
 
-    <h2 class="text-2xl font-bold mb-10">Selected Work</h2>
+    <div class="mb-12">
+        <span class="text-sm uppercase tracking-wide text-[#4EA8DE]">
+            Portfolio
+        </span>
+
+        <h2 class="text-3xl font-bold mt-2">
+            Selected Work
+        </h2>
+
+        <p class="text-gray-400 mt-3">
+            Analytics systems, KPI reporting frameworks, and business intelligence dashboards.
+        </p>
+    </div>
 
     <div class="grid md:grid-cols-2 gap-6">
 
-        <div class="bg-[#1C2541]/40 p-6 rounded border border-gray-800">
-            <h3 class="font-bold">Call Centre Operations Analytics</h3>
-            <p class="text-sm text-gray-400 mt-2">
-                KPI tracking for service operations including AHT, ASA, CSAT, and performance monitoring dashboards for workforce optimization.
+        <!-- PROJECT 1 -->
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-2xl p-7 hover:border-[#4EA8DE] transition">
+
+            <div class="flex justify-between items-center mb-5">
+                <span class="text-xs uppercase text-[#4EA8DE] tracking-wide">
+                    Operations Analytics
+                </span>
+
+                <a href="https://github.com/olufemi-builds/CallOps-AI-Operations-Pack"
+                target="_blank"
+                class="text-gray-400 hover:text-white">
+                    <i class="fab fa-github text-lg"></i>
+                </a>
+            </div>
+
+            <h3 class="text-xl font-semibold">
+                Call Centre Operations Analytics
+            </h3>
+
+            <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+                KPI tracking for AHT, ASA, CSAT, and service performance reporting for workforce optimization.
             </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    Power BI
+                </span>
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    SQL
+                </span>
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    KPI Reporting
+                </span>
+            </div>
+
+            <a href="https://github.com/olufemi-builds/CallOps-AI-Operations-Pack"
+            target="_blank"
+            class="inline-block mt-6 text-[#4EA8DE] hover:underline">
+                View Project →
+            </a>
+
         </div>
 
-        <div class="bg-[#1C2541]/40 p-6 rounded border border-gray-800">
-            <h3 class="font-bold">Insurance Risk Analytics</h3>
-            <p class="text-sm text-gray-400 mt-2">
-                Claims risk segmentation, fraud detection indicators, and portfolio exposure analysis using SQL and Power BI.
+        <!-- PROJECT 2 -->
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-2xl p-7 hover:border-[#4EA8DE] transition">
+
+            <div class="flex justify-between items-center mb-5">
+                <span class="text-xs uppercase text-[#4EA8DE] tracking-wide">
+                    Risk Analytics
+                </span>
+
+                <a href="https://github.com/olufemi-builds/Insurance-Claims-Risk-and-Loss-Analytics-Dashboard"
+                target="_blank"
+                class="text-gray-400 hover:text-white">
+                    <i class="fab fa-github text-lg"></i>
+                </a>
+            </div>
+
+            <h3 class="text-xl font-semibold">
+                Insurance Risk Analytics
+            </h3>
+
+            <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+                Claims risk analysis, fraud indicators, portfolio exposure tracking, and reporting models.
             </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    Power BI
+                </span>
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    SQL
+                </span>
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    DAX
+                </span>
+            </div>
+
+            <a href="https://github.com/olufemi-builds/Insurance-Claims-Risk-and-Loss-Analytics-Dashboard"
+            target="_blank"
+            class="inline-block mt-6 text-[#4EA8DE] hover:underline">
+                View Project →
+            </a>
+
         </div>
 
-        <div class="bg-[#1C2541]/40 p-6 rounded border border-gray-800">
-            <h3 class="font-bold">Financial Performance Dashboard</h3>
-            <p class="text-sm text-gray-400 mt-2">
-                Executive reporting system tracking revenue, margin, and operational KPIs for financial decision support.
+        <!-- PROJECT 3 -->
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-2xl p-7 hover:border-[#4EA8DE] transition">
+
+            <div class="flex justify-between items-center mb-5">
+                <span class="text-xs uppercase text-[#4EA8DE] tracking-wide">
+                    Financial Reporting
+                </span>
+
+                <a href="https://github.com/olufemi-builds/FMCG-Sales-Performance-Analytics-Dashboard"
+                target="_blank"
+                class="text-gray-400 hover:text-white">
+                    <i class="fab fa-github text-lg"></i>
+                </a>
+            </div>
+
+            <h3 class="text-xl font-semibold">
+                Financial Performance Dashboard
+            </h3>
+
+            <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+                Revenue reporting, performance monitoring, and executive financial dashboards.
             </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    Power BI
+                </span>
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    SQL
+                </span>
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    Reporting
+                </span>
+            </div>
+
+            <a href="https://github.com/olufemi-builds/FMCG-Sales-Performance-Analytics-Dashboard"
+            target="_blank"
+            class="inline-block mt-6 text-[#4EA8DE] hover:underline">
+                View Project →
+            </a>
+
         </div>
 
-        <div class="bg-[#1C2541]/40 p-6 rounded border border-gray-800">
-            <h3 class="font-bold">HR Workforce Analytics</h3>
-            <p class="text-sm text-gray-400 mt-2">
-                Attrition tracking, engagement analysis, and workforce reporting models for organisational planning.
+        <!-- PROJECT 4 -->
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-2xl p-7 hover:border-[#4EA8DE] transition">
+
+            <div class="flex justify-between items-center mb-5">
+                <span class="text-xs uppercase text-[#4EA8DE] tracking-wide">
+                    Workforce Analytics
+                </span>
+
+                <a href="https://github.com/olufemi-builds/-HR-Analytics-Workforce-Intelligence"
+                target="_blank"
+                class="text-gray-400 hover:text-white">
+                    <i class="fab fa-github text-lg"></i>
+                </a>
+            </div>
+
+            <h3 class="text-xl font-semibold">
+                HR Workforce Analytics
+            </h3>
+
+            <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+                Attrition tracking, workforce reporting, engagement analysis, and planning dashboards.
             </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    HR Analytics
+                </span>
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    Power BI
+                </span>
+                <span class="text-xs bg-gray-800 px-3 py-1 rounded">
+                    Reporting
+                </span>
+            </div>
+
+            <a href="https://github.com/olufemi-builds/-HR-Analytics-Workforce-Intelligence"
+            target="_blank"
+            class="inline-block mt-6 text-[#4EA8DE] hover:underline">
+                View Project →
+            </a>
+
         </div>
 
     </div>
+
 </section>
 
-<section id="certifications" class="max-w-4xl mx-auto px-6 py-16 border-t border-gray-900">
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="max-w-5xl mx-auto px-6 py-20 border-t border-gray-900">
 
-    <h2 class="text-2xl font-bold mb-8">Certifications</h2>
+    <h2 class="text-3xl font-bold mb-8">
+        Certifications
+    </h2>
 
-    <div class="space-y-3 text-sm text-gray-300">
-        <p>Microsoft Certified: Power BI Data Analyst (PL-300)</p>
-        <p>Microsoft Certified: Fabric Analytics Engineer (DP-600)</p>
-        <p>Microsoft Certified: Fabric Data Engineer (DP-700)</p>
-        <p>Business Intelligence & Data Analysis Certification (CFI)</p>
+    <div class="grid md:grid-cols-2 gap-4">
+
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-xl p-5">
+            Microsoft Certified: Power BI Data Analyst (PL-300)
+        </div>
+
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-xl p-5">
+            Microsoft Certified: Fabric Analytics Engineer (DP-600)
+        </div>
+
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-xl p-5">
+            Microsoft Certified: Fabric Data Engineer (DP-700)
+        </div>
+
+        <div class="bg-[#1C2541]/50 border border-gray-800 rounded-xl p-5">
+            Business Intelligence & Data Analysis Certification (CFI)
+        </div>
+
     </div>
 
 </section>
 
-<footer class="text-center py-10 text-gray-500 text-xs border-t border-gray-900">
+<!-- FOOTER -->
+<footer class="border-t border-gray-900 py-10 text-center text-gray-500 text-sm">
     © 2026 Olufemi Olamoyegun
 </footer>
 
 </body>
 </html>
+```
