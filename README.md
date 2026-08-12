@@ -1,217 +1,166 @@
-OLUFEMI_DATA
+# OLUFEMI_DATA
 
-Data Analytics • Business Intelligence • Data Engineering
+[Summary](#summary) | [Focus](#focus) | [Projects](#projects) | [Certifications](#certifications)
 
-Olufemi Olamoyegun
+DATA ENGINEERING • BUSINESS INTELLIGENCE • DATA ANALYTICS
 
-Business Intelligence & Analytics Engineer
-Power BI • Microsoft Fabric • SQL • Python
+# Olufemi Olamoyegun
 
-Finance and Operations background
-Building data analytics and data engineering solutions
+Data Engineer | Microsoft Fabric • SQL • Python • Power BI
 
---------------------------------------------------
+Business Intelligence and Data professional with 14+ years of experience across finance, operations, and analytics, including hands-on experience building data pipelines, Lakehouse workflows, data models, validation processes, and reporting solutions.
 
-PROFILE SUMMARY
+Experienced with Microsoft Fabric, SQL, Python, PySpark, Power BI, and Excel. Focused on building reliable data workflows that move data from source systems through ingestion, transformation, validation, modeling, and analytics.
 
-Business Intelligence and Analytics professional with experience across finance, operations, reporting, and data analytics.
+### 14+
 
-Experienced in SQL, Power BI, Excel, Python, Microsoft Fabric, data transformation, KPI reporting, dashboard development, and data modeling.
+Years Finance + Analytics
 
-Currently focused on building practical data engineering solutions using Microsoft Fabric, including Lakehouse architecture, ETL pipelines, PySpark transformations, data quality frameworks, dimensional modeling, and analytics-ready datasets.
+### 4
 
---------------------------------------------------
+Microsoft Certifications
 
-FEATURED PROJECTS
+### 17
 
-DATA ENGINEERING
+GitHub Projects
 
-FinTech Transaction Data Engineering Platform
+[View Projects](#projects) | [GitHub](https://github.com/olufemi-builds)
 
-Microsoft Fabric • Lakehouse • PySpark • SQL • Power BI
+---
 
-An end-to-end data engineering portfolio project using synthetic financial transaction data.
+## FOCUS
 
-The project demonstrates how raw customer, account, merchant, transaction, and payment-event data can be ingested, transformed, validated, modeled, and prepared for analytics.
+## Data Engineering & Business Intelligence
 
-What I Built
+### Data Engineering
 
-- Bronze, Silver, and Gold data architecture
-- Fabric Lakehouse data layers
-- Data ingestion pipeline
-- PySpark transformation workflows
-- Data quality validation
-- Referential integrity checks
-- Dimensional data model
-- Fact and dimension tables
-- SQL analytical queries
-- Analytics-ready datasets for Power BI
+Microsoft Fabric Lakehouse, data ingestion, ETL/ELT pipelines, PySpark transformations, SQL, data quality, dimensional modeling, and analytics-ready data preparation.
 
-GitHub:
-https://github.com/olufemi-builds/fintech-transaction-data-engineering
+### Business Intelligence
 
+Power BI dashboards, KPI reporting, data models, DAX, reporting controls, performance monitoring, and business reporting.
 
-DATA ANALYTICS
+### Data Analytics
 
-Card Portfolio & Transaction Analytics
+SQL analysis, data validation, Excel reporting, trend analysis, variance analysis, and business insights.
 
-Power BI • SQL • DAX • Excel
+---
+
+## PROJECTS
+
+## Selected Projects
+
+Selected data engineering, analytics, and business intelligence projects demonstrating experience across Microsoft Fabric, data pipelines, data modeling, analytics, automation, and reporting.
+
+---
+
+## DATA ENGINEERING
+
+### FinTech Transaction Data Engineering Platform
+
+End-to-end data engineering platform built with Microsoft Fabric Lakehouse, Fabric Data Pipelines, PySpark, SQL, and Power BI.
+
+The project demonstrates source data ingestion, Bronze/Silver/Gold medallion architecture, data transformation, data quality validation, referential integrity checks, dimensional modeling, incremental processing, and analytics-ready data preparation.
+
+Microsoft Fabric • Lakehouse • PySpark • SQL • Data Pipelines • Power BI
+
+[View Project →](https://olufemi-builds.github.io/fintech-transaction-data-engineering/)
+
+[View GitHub Repository →](https://github.com/olufemi-builds/fintech-transaction-data-engineering-platform)
+
+---
+
+## CARD & PAYMENTS ANALYTICS
+
+### Card Portfolio & Transaction Analytics
 
 Card portfolio and transaction analysis covering transaction performance, card activation, customer behavior, regional performance, channels, merchant categories, and data quality.
 
-GitHub:
-https://github.com/olufemi-builds/-Card-Portfolio-Transaction-Analytics
+Power BI • SQL • DAX • Excel
 
+[View Project →](https://github.com/olufemi-builds/-Card-Portfolio-Transaction-Analytics)
 
-RISK ANALYTICS
+---
 
-Insurance Claims Risk & Loss Analytics Dashboard
+## RISK ANALYTICS
 
-Power BI • SQL • DAX
+### Insurance Claims Risk & Loss Analytics Dashboard
 
 Claims risk analysis, fraud indicators, portfolio exposure tracking, loss analysis, and reporting models.
 
-GitHub:
-https://github.com/olufemi-builds/Insurance-Claims-Risk-and-Loss-Analytics-Dashboard
-
-
-SALES ANALYTICS
-
-FMCG Sales Performance Analytics Dashboard
-
 Power BI • SQL • DAX
+
+[View Project →](https://github.com/olufemi-builds/Insurance-Claims-Risk-and-Loss-Analytics-Dashboard)
+
+---
+
+## FMCG ANALYTICS
+
+### FMCG Sales Performance Analytics Dashboard
 
 Sales performance reporting and dashboard analysis for revenue, products, regions, customers, and business performance.
 
-GitHub:
-https://github.com/olufemi-builds/FMCG-Sales-Performance-Analytics-Dashboard
+Power BI • SQL • DAX
 
+[View Project →](https://github.com/olufemi-builds/FMCG-Sales-Performance-Analytics-Dashboard)
 
-FINANCIAL ANALYTICS
+---
 
-End-to-End Finance Analytics with Microsoft Fabric
+## FINANCIAL ANALYTICS
+
+### End-to-End Finance Analytics with Microsoft Fabric
+
+End-to-end finance analytics workflow using Microsoft Fabric, SQL, structured data processing, reporting, and business insights.
 
 Microsoft Fabric • SQL • Power BI
 
-End-to-end finance analytics workflow using Microsoft Fabric, structured data processing, reporting, and business insights.
+[View Project →](https://github.com/olufemi-builds/end-to-end-finance-analytics-microsoft-fabric)
 
-GitHub:
-https://github.com/olufemi-builds/end-to-end-finance-analytics-microsoft-fabric
+---
 
+## PRODUCT ANALYTICS
 
-PRODUCT ANALYTICS
-
-Newsletter Engagement Analytics Dashboard
-
-Power BI • SQL • A/B Testing
+### Newsletter Engagement Analytics Dashboard
 
 Newsletter engagement analysis across audiences, devices, headline variants, A/B testing, and cohort behavior.
 
-GitHub:
-https://github.com/olufemi-builds/Newsletter-Engagement-Analytics-Dashboard
+Power BI • SQL • A/B Testing
 
+[View Project →](https://github.com/olufemi-builds/Newsletter-Engagement-Analytics-Dashboard)
 
-OPERATIONS ANALYTICS
+---
 
-PwC Call Centre Analytics Dashboard
+## OPERATIONS & AI
 
-Power BI • Power Query • Excel
+### CallOps AI Operations Pack
 
-Call centre performance analysis covering service levels, agent performance, customer satisfaction, and operational KPIs.
+A conversational operations analytics solution developed during the Microsoft Agent Academy Hackathon.
 
-GitHub:
-https://github.com/olufemi-builds/PWC-Call-Centre-Solution-with-Power-BI
-
-
-HACKATHON PROJECT
-
-Agent Academy Hackathon 2026
+The project combines Copilot Studio, Power Automate, Excel, and AI to allow call center supervisors to retrieve queue-level KPI information using natural language.
 
 Copilot Studio • Power Automate • Excel • AI
 
-Participated in the Microsoft Agent Academy Hackathon 2026, building an AI-powered operations analytics solution.
+[View Project →](https://github.com/olufemi-builds/CallOps-AI-Operations-Pack)
 
-The project demonstrates the use of conversational AI and workflow automation to retrieve operational KPI information using natural language.
+---
 
-What I Built
+## MICROSOFT FABRIC
 
-- Copilot Studio agent
-- Power Automate workflow
-- Excel-based KPI data source
-- Natural language KPI retrieval
-- Operational reporting workflow
-
-Recognition
-
-Agent Academy Hackathon 2026
-Participant
-
-GitHub:
-https://github.com/olufemi-builds/CallOps-AI-Operations-Pack
-
-
-DATA ENGINEERING
-
-Fabric Lakehouse SCD Type 2 Implementation
+### Fabric Lakehouse SCD Type 2 Implementation
 
 Microsoft Fabric • PySpark • Lakehouse
 
-A data engineering project demonstrating historical dimension tracking using Slowly Changing Dimension Type 2 logic in Microsoft Fabric.
+Implemented Slowly Changing Dimension Type 2 logic using PySpark in Microsoft Fabric Lakehouse to track historical changes in dimension data.
 
-What I Built
+The project demonstrates historical record tracking, active and inactive record handling, and data transformation for analytical workloads.
 
-- Historical dimension tracking
-- Active and inactive record handling
-- PySpark transformation logic
-- Lakehouse-based data processing
-- Foundation for dimensional modeling
+[View Project →](https://github.com/olufemi-builds/fabric-monthly-sales-animation)
 
-GitHub:
-https://github.com/olufemi-builds/fabric-monthly-sales-animation
+---
 
+## CERTIFICATIONS
 
---------------------------------------------------
-
-CORE FOCUS AREAS
-
-BUSINESS INTELLIGENCE
-
-KPI dashboards, executive reporting, performance tracking, and Power BI analytics.
-
-DATA ANALYTICS
-
-SQL analysis, data validation, Excel reporting, dashboard development, and business insights.
-
-DATA ENGINEERING
-
-Microsoft Fabric Lakehouse, ETL pipelines, PySpark transformations, data quality, dimensional modeling, and analytics-ready datasets.
-
-DATA GOVERNANCE
-
-Reporting controls, validation frameworks, data quality checks, and reporting accuracy.
-
-
---------------------------------------------------
-
-TECHNOLOGY
-
-Power BI
-Microsoft Fabric
-SQL
-Python
-PySpark
-Excel
-Power Automate
-Copilot Studio
-DAX
-Power Query
-Git
-GitHub
-
-
---------------------------------------------------
-
-CERTIFICATIONS
+## Microsoft Certifications
 
 Microsoft Certified: Fabric Data Engineer Associate (DP-700)
 
@@ -219,40 +168,78 @@ Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)
 
 Microsoft Certified: Power BI Data Analyst Associate (PL-300)
 
+Business Intelligence & Data Analysis Certification (CFI)
 
---------------------------------------------------
+---
 
-EXPERIENCE
+## COMMUNITY
 
-BI & Analytics Lead – Cadworks Ltd
-2024–Present
+## Microsoft Community Recognition
 
-Director, Business Analytics – Cadworks Ltd
-2023–2024
+Microsoft Fabric Super User FY25/26
 
-Operations & Finance Analyst
-2012–2023
+Microsoft Fabric Community Solution Sage
 
+Microsoft Excel Community Advanced Solver
 
---------------------------------------------------
+Microsoft technical community contributor with verified solutions across Fabric and Excel communities.
 
-CURRENT FOCUS
+---
 
-Building practical data engineering solutions with Microsoft Fabric while continuing to apply business intelligence and analytics skills.
+## EXPERIENCE
 
-Focus areas include:
+## Professional Experience
 
-- Fabric Lakehouse architecture
-- Data ingestion
-- ETL and ELT pipelines
-- PySpark
-- SQL
-- Data quality
-- Dimensional modeling
-- SCD Type 2
-- Power BI
-- Analytics engineering
-- Business intelligence
+### Business Intelligence & Analytics Lead
 
+Cadworks Ltd | 2024 – Present
+
+Business intelligence, analytics, reporting, data modeling, Microsoft Fabric, SQL, Power BI, and data workflow development across finance and operations.
+
+### Director, Business Analytics and Operations
+
+Cadworks Ltd | 2023 – 2024
+
+Business analytics, operational reporting, KPI development, performance analysis, reporting automation, and stakeholder reporting.
+
+### Operations & Finance Analyst
+
+2012 – 2023
+
+Finance, operational analysis, reporting, reconciliations, budgeting, performance analysis, and business reporting.
+
+---
+
+## TECHNICAL FOCUS
+
+Microsoft Fabric
+
+Lakehouse • Data Pipelines • Notebooks • Dataflows • PySpark • SQL Analytics Endpoint
+
+Data Engineering
+
+ETL/ELT • Data ingestion • Data transformation • Data quality • Referential integrity • Dimensional modeling • Star schema • SCD Type 2 • Incremental processing
+
+Analytics
+
+SQL • Python • Power BI • DAX • Power Query • Excel
+
+Automation & AI
+
+Power Automate • Copilot Studio • Microsoft 365 Copilot • AI-assisted workflows
+
+Development
+
+Git • GitHub • REST APIs
+
+---
+
+## CAREER DIRECTION
+
+Building on 14+ years of experience across finance, operations, and analytics, with a current focus on Data Engineering, Microsoft Fabric, data platforms, and analytics engineering.
+
+The goal is to combine strong business and financial domain knowledge with practical data engineering skills to build reliable data platforms that support analytics and decision-making.
+
+---
 
 © 2026 Olufemi Olamoyegun
