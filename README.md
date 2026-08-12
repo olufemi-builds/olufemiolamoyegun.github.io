@@ -66,7 +66,7 @@ Microsoft Fabric • Lakehouse • PySpark • SQL • Data Pipelines • Power 
 
 [View Project →](https://olufemi-builds.github.io/fintech-transaction-data-engineering/)
 
-[View GitHub Repository →](https://github.com/olufemi-builds/fintech-transaction-data-engineering-platform)
+[View GitHub Repository →](https://github.com/olufemi-builds/fintech-transaction-data-engineering)
 
 ---
 
