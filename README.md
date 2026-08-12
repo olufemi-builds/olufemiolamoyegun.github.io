@@ -48,7 +48,7 @@ What I Built
 - Analytics-ready datasets for Power BI
 
 GitHub:
-https://github.com/olufemi-builds/fintech-transaction-data-engineering-platform
+https://github.com/olufemi-builds/fintech-transaction-data-engineering
 
 
 DATA ANALYTICS
