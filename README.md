@@ -24,7 +24,7 @@ Microsoft Certifications
 
 GitHub Projects
 
-[View Projects](#projects) | (https://github.com/olufemi-builds/fintech-transaction-data-engineering)
+[View Projects](#projects) | (https://github.com/olufemi-builds)
 
 ---
 
